@@ -46,8 +46,10 @@ const Navbar = () => {
 
   const navLinks = [
     { name: "الرئيسية", href: "/" },
-    { name: "حاسبة الزكاة", href: "/zakah-calculator" },
     { name: "فرص التبرع", href: "/announcements" },
+    { name: "حاسبة الزكاة", href: "/zakah-calculator" },
+    { name: "سواعد الجود", href: "/top-donations" },
+
     { name: "عن الموقع", href: "/about" },
     { name: "اتصل بنا", href: "/contact" },
   ];
@@ -58,7 +60,7 @@ const Navbar = () => {
 
   return (
     <nav className="bg-white shadow-md">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="max-w-400 mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between h-16">
           <div className="flex items-center">
             <div className="flex-shrink-0 flex items-center">
